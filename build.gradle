@@ -8,11 +8,9 @@ buildscript {
         }
         maven {
             url 'http://maven.aliyun.com/nexus/content/groups/public/'
-            allowInsecureProtocol = true
         }
         maven {
             url 'http://developer.huawei.com/repo/'
-            allowInsecureProtocol = true
         }
     }
     dependencies {
@@ -29,7 +27,6 @@ allprojects {
 //        maven { url 'http://192.168.102.34:8081/repository/android-release/' }
         maven {
             url 'http://maven.aliyun.com/nexus/content/groups/public/'
-            allowInsecureProtocol = true
         }
         maven {
             url "https://jitpack.io"
@@ -37,7 +34,6 @@ allprojects {
         mavenCentral()
         maven {
             url 'http://developer.huawei.com/repo/'
-            allowInsecureProtocol = true
         }
     }
 }

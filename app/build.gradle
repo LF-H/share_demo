@@ -4,12 +4,13 @@ plugins {
 }
 
 android {
-    compileSdk 30
+    compileSdkVersion 28
+    buildToolsVersion "28.0.0"
 
     defaultConfig {
         applicationId "com.demo.share_utils"
-        minSdk 23
-        targetSdk 30
+        minSdkVersion 23
+        targetSdkVersion 28
         versionCode 1
         versionName "1.0"
 
